@@ -5,7 +5,7 @@ public class Connessione {
 	private int idConnessione;
 	private Linea linea;
 	private Fermata stazP;
-	private Fermata stazA;
+	private Fermata stazA; 
 
 	public Connessione(int idConnessione, Linea linea, Fermata stazP, Fermata stazA) {
 		this.idConnessione = idConnessione;
